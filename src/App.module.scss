@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.AppLogo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .AppLogo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.AppHeader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.AppLink {
+  color: #61dafb;
+}
+
+.AppButton {
+  color: #282c34;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  padding: 7px;
+  margin: 5px;
+}
+
+.AppButton:hover {
+  color: white;
+  background-color: #282c34;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  padding: 7px;
+  margin: 5px;
+}
+
+.AppButton:active {
+  color: #282c34;
+  background-color: white;
+  border: 2px solid white;
+  padding: 7px;
+  margin: 5px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
